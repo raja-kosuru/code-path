@@ -9,6 +9,9 @@
                value = "tipControl.selectedSegmentIndex">
             </PersistentString>
             <PersistentString
+               value = "tipControl.isSelected">
+            </PersistentString>
+            <PersistentString
                value = "tipControl">
             </PersistentString>
          </PersistentStrings>
