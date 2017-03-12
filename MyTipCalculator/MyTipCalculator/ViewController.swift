@@ -72,9 +72,9 @@ class ViewController: UIViewController {
         var percentage = defaultTipPercentage
         
         
-        if tipControl.isSelected == true
+        if tipControl.selectedSegmentIndex >= 0
         {
-            percentage = Double(tipControl.selectedSegmentIndex)
+            percentage = Double(tipPercentages[tipControl.selectedSegmentIndex])
         }
         
         
